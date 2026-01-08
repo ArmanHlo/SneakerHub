@@ -1,70 +1,63 @@
-# 🛒 ShopCart – Android E-Commerce Application
+# 🛒 SneakerHub – Shoe Shopping Android App
 
-ShopCart is a modern and scalable **Android e-commerce application** developed using **XML for UI design**, **Kotlin for application logic**, and **Firebase** as the backend service.  
-The application focuses on providing a clean user interface, smooth user experience, and real-time data handling suitable for online shopping platforms.
+SneakerHub is a modern and scalable **Android e-commerce application** developed using **Kotlin** and **Jetpack Compose**.  
+The app focuses on delivering a clean, intuitive, and responsive shopping experience using **declarative UI principles** and **modern Android development practices**.
 
 ---
 
 ## 📖 Project Overview
 
-The goal of ShopCart is to simulate a real-world shopping application where users can browse products, view detailed product information, manage their cart, and see an order summary with calculated pricing.  
-The project follows **industry-standard Android development practices**, including **MVVM architecture**, **Firebase integration**, and **separation of concerns**.
+SneakerHub simulates a real-world shoe shopping application where users can browse products, view detailed product information, manage their cart, and review an order summary with automatically calculated pricing.
 
-This project is ideal for learning and demonstrating:
-- Android UI development using XML
-- Kotlin-based application logic
-- Firebase backend integration
-- E-commerce application workflows
+The project is built entirely with **Jetpack Compose**, eliminating traditional XML layouts and showcasing modern Android UI development using a **single-language (Kotlin-only) approach**.
+
+This project demonstrates:
+- Declarative UI development with Jetpack Compose
+- Kotlin-only Android app architecture
+- Scalable e-commerce workflows
+- Clean code structure using MVVM
 
 ---
 
 ## ✨ Key Features
 
 ### 🔹 User Interface
-- Attractive onboarding screen
-- Home screen with featured products and recommendations
-- Product detail screen with:
-  - Product images
+- Modern onboarding experience
+- Home screen with featured and recommended shoes
+- Product detail screen including:
+  - High-quality product images
   - Color selection
   - Size selection
   - Quantity increment/decrement
 - Cart and order summary screen
-- Clean and modern UI inspired by real e-commerce apps
+- Clean, minimal, and responsive UI built with Material 3
 
 ### 🔹 Shopping & Cart Management
-- Add products to cart
-- Update product quantity
+- Add and remove products from cart
+- Update product quantities in real time
 - Automatic calculation of:
   - Subtotal
   - Delivery charges
   - Tax
   - Total payable amount
 
-### 🔹 Backend (Firebase)
-- Firebase Authentication for user management
-- Firebase Firestore / Realtime Database for storing:
-  - Product data
-  - Cart data
-  - User-related information
-- Real-time data synchronization
-
 ---
 
 ## 📱 App Screenshots
 
-> Screenshots are stored in the `screenshots/` directory.
+<p align="center">
+ <img src="screenshots/splash_screen.png" width="22%" />
+  <img src="screenshots/home.png" width="22%" />
+  <img src="screenshots/product_detail.png" width="22%" />
+  <img src="screenshots/order_detail.png" width="22%" />
+</p>
 
-### Onboarding Screen
-![Onboarding](screenshots/onboarding.png)
-
-### Home Screen
-![Home](screenshots/home.png)
-
-### Product Details Screen
-![Product Details](screenshots/product_details.png)
-
-### Order Details / Cart Screen
-![Order Details](screenshots/order_details.png)
+<p align="center">
+  <b>Onboarding</b> &nbsp;&nbsp;&nbsp;
+  <b>Home</b> &nbsp;&nbsp;&nbsp;
+  <b>Product</b> &nbsp;&nbsp;&nbsp;
+  <b>Cart</b>
+</p>
 
 ---
 
@@ -72,24 +65,18 @@ This project is ideal for learning and demonstrating:
 
 ### 🔹 Frontend
 - **Language:** Kotlin
-- **UI Design:** XML
-  - ConstraintLayout
-  - RecyclerView
-  - Material Design Components
+- **UI Framework:** Jetpack Compose
+- **Design System:** Material 3
+- **State Management:** State, MutableState, ViewModel
 
 ### 🔹 Architecture
-- **MVVM (Model-View-ViewModel)**
-- ViewModel for business logic
-- LiveData / State handling
-- Clear separation between UI and data layers
-
-### 🔹 Backend
-- **Firebase**
-  - Firebase Authentication
-  - Firebase Firestore / Realtime Database
+- **MVVM (Model–View–ViewModel)**
+- Unidirectional data flow
+- Clear separation of UI, business logic, and state
 
 ### 🔹 Build System
-- Gradle with Kotlin DSL (`.kts`)
+- Gradle
+- Kotlin DSL (`.kts`)
 
 ---
 
